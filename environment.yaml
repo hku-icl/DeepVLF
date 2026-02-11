@@ -1,0 +1,11 @@
+name: DeepVLF
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch-cuda=12.1
+  - numpy
+  - matplotlib
+  - tqdm
+  - cudatoolkit
+

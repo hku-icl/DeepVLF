@@ -1,0 +1,87 @@
+###########################################
+#  Please make sure 'T=0' in model.py, line 32 ('termination' function) and run 'main.py' file.
+###########################################
+Fading Channel
+1:	    10	    0	    100 mid 0.0519  8.39 - 8.43
+2:	    10	    5	    100 mid 0.0422  6.37 - 6.43
+3:	    10	    10	    100 mid 0.0503  5.75 - 5.76
+4:	    10	    15      100 mid 0.0128  5.61 - 5.62
+5:	    10	    20	    100 mid 0.0086  5.62 - 5.63
+6:	    10	    0	    20  mid 0.1028  9.74 - 9.75
+7:	    10	    5	    20  mid 0.0100  7.74 - 7.79
+8:	    10	    10	    20  mid 0.0134  6.64 - 6.66
+9:	    10	    15      20  mid 0.0479  5.88 - 5.89
+10:	    10	    20	    20  mid 0.0147  5.98 - 5.99
+
+41:	    10	    0	    100	    high     0.00154 8.45  from 0 100 1e-6
+42:	    10	    5	    100	    high     0.00349 6.58   from 1 100 1e-6
+43:	    10	    10	    100	    high     0.00133 6.12
+44:	    10	    15	    100	    high     0.00025 6.41
+45:	    10	    20	    100	    high     9.43e-5 6.42
+
+51:	    10	    0	    100	    max     0.0037 9.75   from 0 100 1e-6
+52:	    10	    5	    100	    max     9.9e-5 9.95   from 1 100 1e-6
+53:	    10	    10	    100	    max     0.0001 9.98
+54:	    10	    15	    100	    max     0.0001 9.92
+55:	    10	    20	    100	    max     0.0001 9.66
+
+
+AWGN:
+11:	    10	    2	    100	    mid     0.00069 5.98 - 6.00
+111:                            high    7.766e-06   6.21
+112:                            max     5.376e-08   7.06
+12:	    10	    1.5	    100	    mid     0.00090 6.32 - 6.34
+121:                            high    6.354e-05   6.30
+122:                            max     3.910e-08   7.11
+13:	    10	    1	    100	    mid     0.00057 6.56 - 6.57
+131:                            high    1.207e-05   7.04
+132:                            max     2.590e-07   7.85
+14:	    10	    0.5	    100	    mid     0.00018 6.90 - 6.90
+141:                            high    9.775e-06   7.56
+142:                            max     2.658e-06   8.89
+15:	    10	    0	    100	    mid     0.00014 7.36 - 7.38
+151:                            high    2.316e-06   7.91
+152:                            max     2.986e-06   9.09
+16:	    10	    -.5	    100	    mid     3.07e-5 8.05 - 8.07
+17:	    10	    -1	    100	    mid     3.20e-5 8.67 - 8.68
+
+
+21:	    10	    2	    100	    high     1e-9   6.04   from 1 100 1e-6
+22:	    10	    1.5	    100	    high     5.8e-8 6.07
+\test with termination snr=1.5           'avg_codelen': 6.000, 'avg_comm_round': 6.003, 'Rd': 0.003, 'PER': 2.932e-08,
+\test with termination snr=1             30397, 'avg_codelen': 6.030, 'avg_comm_round': 6.129, 'Rd': 0.099, 'PER': 3.405e-05,
+\test with termination snr=1    max      45589, 'avg_codelen': 7.000, 'avg_comm_round': 7.001, 'Rd': 0.001, 'PER': 6.319e-07
+\test with termination snr=1    mid      78155, 'avg_codelen': 5.519, 'avg_comm_round': 6.069, 'Rd': 0.551, 'PER': 0.0495,
+23:	    10	    1	    100	    high     6.8e-7 6.44   from 0 100 1e-6
+\test with termination snr=1             'avg_codelen': 6.083, 'avg_comm_round': 6.178, 'Rd': 0.094, 'PER': 9.237e-07,
+\test with termination snr=1    max      86272, 'avg_codelen': 7.000, 'avg_comm_round': 7.000, 'Rd': 6.416e-05, 'PER': 6.791e-08,
+\test with termination snr=1    mid      72244, 'avg_codelen': 6.016, 'avg_comm_round': 6.179, 'Rd': 0.163,, 'PER': 5.021e-06
+24:	    10	    0.5	    100	    high     8.1e-6 6.91
+24_re:  10      0.5     100     high     test
+\test with termination snr=0.5           'avg_codelen': 6.591, 'avg_comm_round': 6.718, 'Rd': 0.126, 'PER': 7.898e-06
+\test with termination snr=1             51254, 'avg_codelen': 6.335, 'avg_comm_round': 6.407, 'Rd': 0.072, 'PER': 6.897e-06,
+\test with termination snr=1    max      77166, 'avg_codelen': 7.000, 'avg_comm_round': 7.001, 'Rd': 0.001, 'PER': 1.733e-06,
+\test with termination snr=1    mid      32637, 'avg_codelen': 6.223, 'avg_comm_round': 6.604, 'Rd': 0.381, 'PER': 0.235,
+25:	    10	    0	    100	    high     5.7e-6 7.26
+26:	    10	    -0.5	100	    mid      1.7e-5 7.66
+27:	    10	    -1	    100	    mid      2.8e-5 8.22
+
+
+31:	    10	    2	    20	    high     9.7e-6 6.43   from 1 20 1e-6
+32:	    10	    1.5	    20	    high     1.2e-5 6.75
+\test with termination snr=1.5           'avg_codelen': 6.750, 'avg_comm_round': 7.652, 'Rd': 0.902, 'PER': 1.533e-05,
+\test with termination snr=1             39999, 'avg_codelen': 6.872, 'avg_comm_round': 7.921, 'Rd': 1.049, 'PER': 8.900e-05
+\test with termination snr=1    max      48258, 'avg_codelen': 7.650, 'avg_comm_round': 9.733, 'Rd': 2.082, 'PER': 9.303e-05,
+\test with termination snr=1    mid      72655, 'avg_codelen': 6.581, 'avg_comm_round': 7.701, 'Rd': 1.120, 'PER': 6.291e-04
+33:	    10	    1	    20	    high     2.1e-5 7.03
+\test with termination snr=1             avg_codelen': 7.023, 'avg_comm_round': 8.018, 'Rd': 0.994, 'PER': 2.551e-05,
+\test with termination snr=1    max      29889, 'avg_codelen': 7.695, 'avg_comm_round': 9.538, 'Rd': 1.843, 'PER': 8.332e-06
+\test with termination snr=1    mid      66592, 'avg_codelen': 6.769, 'avg_comm_round': 7.799, 'Rd': 1.030, 'PER': 2.093e-04,
+34:	    10	    0.5	    20	    high     1.3e-5 7.56
+\test with termination snr=0.5           step:88121, 'avg_codelen': 7.568, 'avg_comm_round': 8.643, 'Rd': 1.075, 'PER': 2.009e-05,
+\test with termination snr=1             41020, 'avg_codelen': 7.385, 'avg_comm_round': 8.356, 'Rd': 0.970, 'PER': 1.127e-05,
+\test with termination snr=1    max      59964, 'avg_codelen': 8.404, 'avg_comm_round': 9.950, 'Rd': 1.546, 'PER': 9.266e-06
+\test with termination snr=1    mid      98898, 'avg_codelen': 7.059, 'avg_comm_round': 8.081, 'Rd': 1.022, 'PER': 5.461e-05
+35:	    10	    0	    20	    mid      0.0003 7.70
+36:	    10	    -0.5	20	    mid      0.0002 8.34
+37:	    10	    -1	    20	    mid      0.0011 8.99

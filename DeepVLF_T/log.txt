@@ -1,0 +1,68 @@
+AWGN Channel:
+vlft	maxt	snr1	snr2	btr	    btt	    PER	    T_avg
+1:	    20	    1	    100	    0.9999	0.1     Batch:13500	PER:4.52112267623761e-08	Normalized average time:5.9592132568359375	Average Time:5.9592132568359375	Max Time:10
+
+
+vlft	maxt	snr1	snr2	btr          btt loss_start
+6:	    20	    1	    100	    0.9999	0.1 0   PER:4.882812376649781e-09	Normalized average time:5.731213569641113	Average Time:5.731213569641113	Max Time:8
+7:	    20	    1	    100	    0.9999	0.1 1   PER:0.0	Normalized average time:5.634032249450684	Average Time:5.634032249450684	Max Time:7
+8:	    20	    1	    100	    0.9999	0.1 2   PER:0.0	Normalized average time:5.061966896057129	Average Time:5.061966896057129	Max Time:10
+9:	    20	    1	    100	    0.9999	0.1 3   PER:0.0	Normalized average time:4.7469868659973145	Average Time:4.7469868659973145	Max Time:9
+10:	    20	    1	    100	    0.9999	0.1 4   PER:0.0	Normalized average time:5.624443054199219	Average Time:5.624443054199219	Max Time:7
+
+11:	    20	    2	    100	    0.9999	0.1 PER:3.662109282487336e-09	Normalized average time:5.005841255187988	Average Time:5.005841255187988	Max Time:8
+12:	    20	    1.5	    100	    0.9999	0.1 Batch:19900	PER:3.0670932460452605e-09	Normalized average time:5.347222805023193	Average Time:5.347222805023193	Max Time:10
+13:	    20	    0.5	    100	    0.9999	0.1 PER:9.765624753299562e-09	Normalized average time:6.214317798614502	Average Time:6.214317798614502	Max Time:10
+14:	    20	    0	    100	    0.9999	0.1 Batch:19700	PER:4.0277008395150915e-08	Normalized average time:6.654310703277588	Average Time:6.654310703277588	Max Time:12
+15:	    20	    -.5	    100	    0.9999	0.1 Batch:19800	PER:4.839656071453646e-07	Normalized average time:7.408999443054199	Average Time:7.408999443054199	Max Time:14
+16:	    20	    -1	    100	    0.9999	0.1 PER:1.56249996052793e-07	Normalized average time:7.698861122131348	Average Time:7.698861122131348	Max Time:12
+
+#-----------------下面这几个要用不同的btt去测
+21:	    20	    2	    20	    0.9999	0.7 PER:6.188964789544116e-07	Normalized average time:5.995558738708496	Average Time:5.995558738708496	Max Time:14
+                                        0.9 PER:7.312011689464271e-07	Normalized average time:6.149431228637695	Average Time:6.149431228637695	Max Time:13
+
+22:	    20	    1.5	    20	    0.9999	0.7 PER:2.9150389764254214e-06	Normalized average time:6.589229106903076	Average Time:6.589229106903076	Max Time:13
+                                        0.9
+23:	    20	    1	    20	    0.9999	0.7 PER:9.606933417671826e-07	Normalized average time:6.703681468963623	Average Time:6.703681468963623	Max Time:13
+                                        0.9 PER:1.112060544983251e-06	Normalized average time:6.860584259033203	Average Time:6.860584259033203	Max Time:15
+
+24:	    20	    0.5	    20	    0.9999	0.7 PER:3.4846971175284125e-06	Normalized average time:7.434462070465088	Average Time:7.434462070465088	Max Time:15
+                                        0.9
+25:	    20	    0	    20	    0.9999	0.7 PER:4.521484243014129e-06	Normalized average time:7.825973033905029	Average Time:7.825973033905029	Max Time:15
+                                        0.9 PER:5.0426660891389474e-06	Normalized average time:8.001099586486816	Average Time:8.001099586486816	Max Time:16
+26:	    20	    -.5	    20	    0.9999	0.7 PER:5.620783213089453e-06	Normalized average time:8.21921157836914	Average Time:8.21921157836914	Max Time:16
+                                        0.9
+26_1                              重跑： 0.7 PER:0.011417986825108528	Normalized average time:6.506514072418213	Average Time:6.506514072418213	Max Time:20
+26_2                              重跑： 0.7 PER:0.011155062355101109	Normalized average time:6.476047515869141	Average Time:6.476047515869141	Max Time:20
+27:	    20	    -1	    20	    0.9999	0.7 PER:1.0026855306932703e-05	Normalized average time:8.795434951782227	Average Time:8.795434951782227	Max Time:18
+                                        0.9 PER:1.1031343092327006e-05	Normalized average time:8.960498809814453	Average Time:8.960498809814453	Max Time:19
+
+Fading Channel:
+41:	    20	    0	    100	    0.9999	0.1 Batch:39500	PER:0.00043481754255481064	Normalized average time:5.911759853363037	Average Time:5.911759853363037	Max Time:20
+42:	    20	    5	    100	    0.9999	0.1 Batch:46100	PER:0.0001603132695890963	Normalized average time:4.014414310455322	Average Time:4.014414310455322	Max Time:20
+43:	    20	    10	    100	    0.9999	0.1 Batch:39600	PER:9.87721505225636e-05	Normalized average time:4.007481098175049	Average Time:4.007481098175049	Max Time:20
+44:	    20	    15	    100	    0.9999	0.1 Batch:45600	PER:3.054167245863937e-05	Normalized average time:3.4219343662261963	Average Time:3.4219343662261963	Max Time:20
+45:	    20	    20	    100	    0.9999	0.1 Batch:50000	PER:1.9530029021552764e-05	Normalized average time:4.011586666107178	Average Time:4.011586666107178	Max Time:10
+
+
+43:	    20	    10	    100	    0.9999	0.1 Batch:39600	PER:9.87721505225636e-05	Normalized average time:4.007481098175049	Average Time:4.007481098175049	Max Time:20
+将DeepVLFT的loss coefficient从10 ** (time / args.max_tau * 5 - 4)调整成 10 ** (time / args.max_tau * 10 - 4)后，
+51:	    20	    10	    100	    0.9999  *Batch:13200	PER:9.928848157869652e-05	Normalized average time:4.602992534637451	Average Time:4.60299253463745
+
+将DeepVLFT的loss coefficient从10 ** (time / args.max_tau * 5 - 4)调整成 10 ** (time / args.max_tau * 20/3 - 4)后，
+52:	    20	    10	    100	    0.9999  Batch:13200	PER:8.29708224046044e-05	Normalized average time:4.084001064300537	Average Time:4.084001064300537
+
+lst = 3时
+53:	    20	    10	    100	    0.9999  Batch:13100	PER:8.522557618562132e-05	Normalized average time:4.193766117095947	Average Time:4.193766117095947
+lst = 4时
+54:	    20	    10	    100	    0.9999  Batch:13100	PER:7.627064769621938e-05	Normalized average time:4.67735481262207	Average Time:4.67735481262207
+lst = 5时
+55:	    20	    10	    100	    0.9999  Batch:13200	PER:9.129379759542644e-05	Normalized average time:5.962344169616699	Average Time:5.962344169616699
+
+lst = 3，且将DeepVLFT的loss coefficient从10 ** (time / args.max_tau * 5 - 4)调整成 10 ** (time / args.max_tau * 20/3 - 4)后，
+56:	    20	    10	    100	    0.9999  Batch:13100	PER:9.681293886387721e-05	Normalized average time:4.367070198059082	Average Time:4.367070198059082
+lst = 4，且将DeepVLFT的loss coefficient从10 ** (time / args.max_tau * 5 - 4)调整成 10 ** (time / args.max_tau * 20/3 - 4)后，
+57:	    20	    10	    100	    0.9999  Batch:19600	PER:0.00011415131302783266	Normalized average time:5.080572605133057	Average Time:5.080572605133057
+lst = 5，且将DeepVLFT的loss coefficient从10 ** (time / args.max_tau * 5 - 4)调整成 10 ** (time / args.max_tau * 20/3 - 4)后，
+58:	    20	    10	    100	    0.9999  Batch:13100	PER:9.615599265089259e-05	Normalized average time:4.229626178741455	Average Time:4.229626178741455
+

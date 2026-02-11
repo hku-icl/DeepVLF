@@ -1,0 +1,35 @@
+###########################################
+#  Hybrid scheme is trained as DeepVLF-R, but evaluated with dedicatied test file.
+# Please make sure 'T=1' in model.py, line 32 ('termination' function) and run 'test_with_termination.py' file.
+###########################################
+22:	    10	    1.5	    100	    high     5.8e-8 6.07
+\test with termination snr=1.5           'avg_codelen': 6.000, 'avg_comm_round': 6.003, 'Rd': 0.003, 'PER': 2.932e-08,
+\test with termination snr=1             30397, 'avg_codelen': 6.030, 'avg_comm_round': 6.129, 'Rd': 0.099, 'PER': 3.405e-05,
+\test with termination snr=1    max      45589, 'avg_codelen': 7.000, 'avg_comm_round': 7.001, 'Rd': 0.001, 'PER': 6.319e-07
+\test with termination snr=1    mid      78155, 'avg_codelen': 5.519, 'avg_comm_round': 6.069, 'Rd': 0.551, 'PER': 0.0495,
+23:	    10	    1	    100	    high     6.8e-7 6.44   from 0 100 1e-6
+\test with termination snr=1             'avg_codelen': 6.083, 'avg_comm_round': 6.178, 'Rd': 0.094, 'PER': 9.237e-07,
+\test with termination snr=1    max      86272, 'avg_codelen': 7.000, 'avg_comm_round': 7.000, 'Rd': 6.416e-05, 'PER': 6.791e-08,
+\test with termination snr=1    mid      72244, 'avg_codelen': 6.016, 'avg_comm_round': 6.179, 'Rd': 0.163,, 'PER': 5.021e-06
+24:	    10	    0.5	    100	    high     8.1e-6 6.91
+24_re:  10      0.5     100     high     test
+\test with termination snr=0.5           'avg_codelen': 6.591, 'avg_comm_round': 6.718, 'Rd': 0.126, 'PER': 7.898e-06
+\test with termination snr=1             51254, 'avg_codelen': 6.335, 'avg_comm_round': 6.407, 'Rd': 0.072, 'PER': 6.897e-06,
+\test with termination snr=1    max      77166, 'avg_codelen': 7.000, 'avg_comm_round': 7.001, 'Rd': 0.001, 'PER': 1.733e-06,
+\test with termination snr=1    mid      32637, 'avg_codelen': 6.223, 'avg_comm_round': 6.604, 'Rd': 0.381, 'PER': 0.235,
+
+
+32:	    10	    1.5	    20	    high     1.2e-5 6.75
+\test with termination snr=1.5           'avg_codelen': 6.750, 'avg_comm_round': 7.652, 'Rd': 0.902, 'PER': 1.533e-05,
+\test with termination snr=1             39999, 'avg_codelen': 6.872, 'avg_comm_round': 7.921, 'Rd': 1.049, 'PER': 8.900e-05
+\test with termination snr=1    max      48258, 'avg_codelen': 7.650, 'avg_comm_round': 9.733, 'Rd': 2.082, 'PER': 9.303e-05,
+\test with termination snr=1    mid      72655, 'avg_codelen': 6.581, 'avg_comm_round': 7.701, 'Rd': 1.120, 'PER': 6.291e-04
+33:	    10	    1	    20	    high     2.1e-5 7.03
+\test with termination snr=1             avg_codelen': 7.023, 'avg_comm_round': 8.018, 'Rd': 0.994, 'PER': 2.551e-05,
+\test with termination snr=1    max      29889, 'avg_codelen': 7.695, 'avg_comm_round': 9.538, 'Rd': 1.843, 'PER': 8.332e-06
+\test with termination snr=1    mid      66592, 'avg_codelen': 6.769, 'avg_comm_round': 7.799, 'Rd': 1.030, 'PER': 2.093e-04,
+34:	    10	    0.5	    20	    high     1.3e-5 7.56
+\test with termination snr=0.5           step:88121, 'avg_codelen': 7.568, 'avg_comm_round': 8.643, 'Rd': 1.075, 'PER': 2.009e-05,
+\test with termination snr=1             41020, 'avg_codelen': 7.385, 'avg_comm_round': 8.356, 'Rd': 0.970, 'PER': 1.127e-05,
+\test with termination snr=1    max      59964, 'avg_codelen': 8.404, 'avg_comm_round': 9.950, 'Rd': 1.546, 'PER': 9.266e-06
+\test with termination snr=1    mid      98898, 'avg_codelen': 7.059, 'avg_comm_round': 8.081, 'Rd': 1.022, 'PER': 5.461e-05

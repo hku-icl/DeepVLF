@@ -75,7 +75,7 @@ def calculate_equ_noise(noise, h, h_l2):
     n = int(l/2+0.5)
     for i in range(0,n):
         equ_noise[:,i] = (noise[:,i]*h[:,i]+noise[:,i+n]*h[:,i+n])/h_l2[:,i]
-        equ_noise[:,i+n] = (noise[:,i+n]*h[:,i]+noise[:,i]*h[:,i+n])/h_l2[:,i]
+        equ_noise[:,i+n] = (noise[:,i+n]*h[:,i]-noise[:,i]*h[:,i+n])/h_l2[:,i]
     return equ_noise
 
 def fading_process(noise, fading):
